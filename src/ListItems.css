@@ -1,0 +1,32 @@
+.list{
+    color:black;
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color:rgb(110, 160, 139);
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.buton{
+    position: absolute;
+    right: 10px;
+    border-radius: 150px;
+    background-color:rgb(180, 128, 15);
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+
+.list p input{
+    background-color: transparent;
+    border:0;
+}
+
+.list p input:focus{
+    outline: none;
+}

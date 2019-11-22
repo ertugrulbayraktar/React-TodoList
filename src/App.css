@@ -1,0 +1,53 @@
+body{
+  background-color:purple;
+}
+
+.App{ 
+  background-color:blueviolet;   
+  min-height: 500px;
+  width: 400px;
+  margin:40px auto;    /* Yukarıdan 40px ve formu ortalar */
+  border-radius: 25px; 
+}
+
+#todoForm input{     /* TodoForm daki input alanı */
+  border:0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#todoForm button{
+  height: 40px;
+  width: 70px;
+  font-size: 15px;
+  border-radius: 10px;
+  border:0;
+  background-color:rgb(180, 128, 15);
+  font-weight: bold;
+  color:white;
+}
+
+.hepsini-sil button{
+  height: 40px;
+  width: 70px;
+  font-size: 12px;
+  border-radius: 10px;
+  border:0;
+  background-color:rgb(180, 128, 15);
+  font-weight: bold;
+  color:white;
+}
+
+.hepsini-sil{
+  position: relative;
+  left: 160px;
+}
+
+
+
+
+
